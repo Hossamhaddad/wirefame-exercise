@@ -33,14 +33,48 @@ a{
 .footer{
     background-color: grey;
     height: 80px;
+    
 }
-#besidepic{
+.besidepic{
    display: inline-block;
    margin-left: 700px;
-   position: relative;
-   bottom: 350px;
-   
-}
+   margin-right: 200px;
+   margin-top: -350px;
+   height:200px;
+  overflow: scroll;
+  transform: translateY(-75%);
+  }
 .img{
-   display:inline-block;
+    display:inline-block;
+    width:100%;
+   margin-top: -30px;
+   margin-right: 100px;
+   max-height: 200px;
+   position: relative;
+   height: 50%;
+
+ 
+}
+#besidepicheader{
+    float:right;
+    margin-right: 380px;
+    margin-top: 20px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+    } 
+button{
+    margin: 0;
+    position: absolute;
+    bottom:-740px;
+    right: 460px;
+    transition-delay: 0.25s;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+button:hover{
+background-color:rebeccapurple
 }
